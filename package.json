@@ -1,11 +1,12 @@
 {
   "name": "backend2-clase1",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,8 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.2",
+    "nodemailer": "^7.0.12",
+    "twilio": "^5.11.1",
     "morgan": "^1.10.1",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
